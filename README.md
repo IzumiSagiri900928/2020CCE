@@ -79,5 +79,56 @@ int main()
 
 }
 ```
+## 第六個讀入整數反序列印
+```
+#include <stdio.h>
+int main()
+{
+	int a[1000];
+	int k;
+	for(int i=0;i<=10;i++){
+		scanf("%d",&a[i]);
+		if(a[i]==0) break;
+		k=i;
+			
+	}	
+	for(int i=k-1;i>=0;i--){
+		printf("%d ",a[i]);
+	}		
+	printf("\n");
+}
+```
+## 第七個A的B次方函數
+```
+#include <stdio.h>
+int MYPOWER(int a,int b)
+{
+	int ans=1;
+	for(int i=1;i<=b;i++)
+		ans=ans*a;
+	return ans;
+}
+int main(void)
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("[%d]",MYPOWER(a,b));
+	return 0;
+}
+```
+## 第八個漸增數列相加
+```
+#include <stdio.h>
+int main()
+{
+	int n,ans=0;
+	scanf("%d",&n);
+	for(int i=1;i<=n;i++){
+		ans=ans+(i-1)*i;
+	}	
+	printf("%d\n",ans);
+
+}
+```
 
 
