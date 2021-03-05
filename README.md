@@ -80,7 +80,7 @@ int main()
 }
 ```
 ## 第六個讀入整數反序列印
-```
+```C
 #include <stdio.h>
 int main()
 {
@@ -97,9 +97,9 @@ int main()
 	}		
 	printf("\n");
 }
-```
+```C
 ## 第七個A的B次方函數
-```
+```C
 #include <stdio.h>
 int MYPOWER(int a,int b)
 {
@@ -115,9 +115,9 @@ int main(void)
 	printf("[%d]",MYPOWER(a,b));
 	return 0;
 }
-```
+```C
 ## 第八個漸增數列相加
-```
+```C
 #include <stdio.h>
 int main()
 {
@@ -129,6 +129,6 @@ int main()
 	printf("%d\n",ans);
 
 }
-```
+```C
 
 
