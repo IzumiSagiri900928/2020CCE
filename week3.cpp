@@ -28,17 +28,12 @@ int main()
     int *p = &a[2];
     *p = 222;
             printAll();
-       
-
     p = p+2;
     *p = 666;
-                printAll();
-                
-
+                printAll();            
     p--;
     *p = 555;
-            printAll();
-            
+            printAll();           
 }
 ```
 ## p心裡的位置
@@ -49,7 +44,6 @@ void printAll()
 {
     for(int i=0;i<5;i++) printf("%d",a[i]);
     printf("\n");
-
 }
 int main()
 {
