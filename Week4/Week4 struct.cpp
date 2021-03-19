@@ -11,22 +11,7 @@ int main()
 }
 ```
 
-## 3.老師利用 C Tutor 及 CodeBlocks 示範, 接續上題, 再利用 a.x 及 a.y 來改變裡面的值。
-```C
-#include <stdio.h>
-struct POINT{
-    float x, y;
-};
-int main()
-{
-    struct  POINT a{ 4.1, 3.2};
-    printf("%f %f\n",a.x,a.y);
-    a.x=1;
-    a.y=2;
-    printf("%f %f\n",a.x,a.y);
-    return 0;
-}
-```
+
 ## 4. 重新來一次, 老師利用 C Tutor 及 CodeBlocks(配合printf) 示範 外面的global全域變數 會初始值, 裡面的 local區域變數會是亂碼。 然後我們把 local變數裡面用程式來塞值。
 ```C
 #include <stdio.h>
