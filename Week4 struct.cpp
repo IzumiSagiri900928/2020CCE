@@ -1,3 +1,4 @@
+## 1
 ```C
 #include <stdio.h>
 struct POINT{
@@ -9,6 +10,7 @@ int main()
         struct  POINT a;
 }
 ```
+## 2
 ```C
 #include <stdio.h>
 struct POINT{
@@ -22,6 +24,7 @@ int main()
     return 0;
 }
 ```
+## 3
 ```C
 #include <stdio.h>
 struct POINT{
@@ -37,6 +40,7 @@ int main()
     return 0;
 }
 ```
+## 4
 ```C
 #include <stdio.h>
 struct DATA{
@@ -57,6 +61,7 @@ int main()
     printf("c: %d %d\n",c.x ,c.y);
 }
 ```
+## 5
 ```C
 #include <stdio.h>
 struct POINT {
