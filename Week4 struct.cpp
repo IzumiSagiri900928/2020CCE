@@ -2,22 +2,17 @@
 #include <stdio.h>
 struct POINT{
     float x, y;
-
-
 };
 
 int main()
 {
         struct  POINT a;
-
 }
 ```
 ```C
 #include <stdio.h>
 struct POINT{
     float x, y;
-
-
 };
 
 int main()
@@ -31,8 +26,6 @@ int main()
 #include <stdio.h>
 struct POINT{
     float x, y;
-
-
 };
 int main()
 {
@@ -57,14 +50,11 @@ int main()
     }
     printf("b:%d %d\n",b.x, b.y);
 
-
     struct DATA c;
     printf("c:%d %d 像亂碼\n",c.x, c.y);
     c=b;///舊式寫法   較好的寫法 c.x=b.x;  c.y=b.y;
 
     printf("c: %d %d\n",c.x ,c.y);
-
-
 }
 ```
 ```C
@@ -72,9 +62,7 @@ int main()
 struct POINT {
     float x,y,z;
 };
-
 struct POINT point [5]={{0,0,0},{1,0,0},{0,1,0},{0,0,1},{1,1,1}};
-
 int main()
 {
         struct POINT *p = & point[0];
@@ -85,11 +73,6 @@ int main()
 
         p++;
         printf("%.2f %.2f %.2f\n",p->x,p->y,p->z);
-
-
-
-
-
 }
 ```
 
